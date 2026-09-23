@@ -2,13 +2,13 @@
 
 ## Objective
 
-Investigate the effect of the rounding operation in Round-To-Nearest quantization.
+Investigate the effect of uniformity & the rounding operation in Round-To-Nearest quantization.
 
 ## Method
 
 - Develop a general RTN quantizer for floating points.
-    - implement an alternate quantizer without the rounding operation.
+- Develop an alternate quantizer without the rounding operation.
 
 - Run both quantizers on a set of randomly generated numbers; then dequantize.
 
-- Compare errors of the two quantization methods, iterate from observation.
+- Compare errors of the different quantization methods on varying bitwidths
