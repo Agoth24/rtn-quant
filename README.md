@@ -12,3 +12,6 @@ Investigate the effect of uniformity & the rounding operation in Round-To-Neares
 - Run both quantizers on a set of randomly generated numbers; then dequantize.
 
 - Compare errors of the different quantization methods on varying bitwidths
+
+## Observations
+
